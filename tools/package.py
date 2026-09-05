@@ -29,7 +29,7 @@ excluded_public = {
     'docs/VALIDATION.md',
     'docs/WORK_LOG.md',
 }
-for name in ('LICENSE', 'LICENSES', 'docs'):
+for name in ('LICENSE', 'LICENSES'):
     path = root / name
     paths = [path] if path.is_file() else [p for p in path.rglob('*') if p.is_file()]
     files.extend((p, p.relative_to(root)) for p in paths
