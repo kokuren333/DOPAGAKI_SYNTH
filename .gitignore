@@ -1,0 +1,6 @@
+build*/
+external/
+*.user
+.vs/
+renders/
+dist/
