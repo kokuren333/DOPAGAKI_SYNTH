@@ -4,6 +4,8 @@
 
 Windows x64 VST3 / C++20 / MIT。現在は0.4.0開発版です。
 
+![dopagaki_synth VST editor](assets/editor-v04.png)
+
 ## 主な機能
 
 - 16ボイス、5ユニゾン、saw / pulse / sine / additive metal、サブオシレーター
